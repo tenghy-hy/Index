@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>冷凍空調裝修丙級學科練習</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap');
+        
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            background-color: #f0f7ff;
+        }
+
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .gradient-bg {
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col">
+
+    <!-- 導航欄 -->
+    <nav class="gradient-bg text-white py-6 shadow-lg">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-3xl md:text-4xl font-bold mb-2 tracking-wide">
+                <i class="fas fa-snowflake mr-3"></i>冷凍空調裝修丙級
+            </h1>
+            <p class="text-yellow-300 text-lg font-medium">
+                <i class="fas fa-exclamation-circle mr-1"></i> 請填寫正確的座號，成績會自動回傳老師的信箱
+            </p>
+        </div>
+    </nav>
+
+    <!-- 主要內容 -->
+    <main class="flex-grow container mx-auto px-4 py-12">
+        <div class="max-w-4xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                
+                <!-- 工作項目 01 -->
+                <a href="https://tenghy-hy.github.io/W1/" class="block card-hover bg-white rounded-xl p-6 shadow-sm border-l-8 border-blue-500">
+                    <div class="flex items-center">
+                        <div class="bg-blue-100 p-4 rounded-full mr-4 text-blue-600">
+                            <i class="fas fa-drafting-compass text-2xl"></i>
+                        </div>
+                        <div>
+                            <h2 class="text-xl font-bold text-gray-800">工作項目 01</h2>
+                            <p class="text-gray-600">識圖與製圖</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- 工作項目 02 -->
+                <a href="https://tenghy-hy.github.io/TEST/" class="block card-hover bg-white rounded-xl p-6 shadow-sm border-l-8 border-cyan-500">
+                    <div class="flex items-center">
+                        <div class="bg-cyan-100 p-4 rounded-full mr-4 text-cyan-600">
+                            <i class="fas fa-tools text-2xl"></i>
+                        </div>
+                        <div>
+                            <h2 class="text-xl font-bold text-gray-800">工作項目 02</h2>
+                            <p class="text-gray-600">作業準備</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- 工作項目 03 -->
+                <a href="https://tenghy-hy.github.io/W3/" class="block card-hover bg-white rounded-xl p-6 shadow-sm border-l-8 border-indigo-500">
+                    <div class="flex items-center">
+                        <div class="bg-indigo-100 p-4 rounded-full mr-4 text-indigo-600">
+                            <i class="fas fa-pipe text-2xl"></i>
+                        </div>
+                        <div>
+                            <h2 class="text-xl font-bold text-gray-800">工作項目 03</h2>
+                            <p class="text-gray-600">冷媒管加工</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- 工作項目 04 -->
+                <a href="https://tenghy-hy.github.io/W4/" class="block card-hover bg-white rounded-xl p-6 shadow-sm border-l-8 border-teal-500">
+                    <div class="flex items-center">
+                        <div class="bg-teal-100 p-4 rounded-full mr-4 text-teal-600">
+                            <i class="fas fa-gauge-high text-2xl"></i>
+                        </div>
+                        <div>
+                            <h2 class="text-xl font-bold text-gray-800">工作項目 04</h2>
+                            <p class="text-gray-600">冷媒系統處理</p>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+
+            <!-- 修改後的提示與計分說明卡片 -->
+            <div class="mt-12 bg-white border border-blue-200 rounded-xl p-8 shadow-sm">
+                <h3 class="text-blue-700 font-bold text-xl mb-4 flex items-center">
+                    <i class="fas fa-info-circle mr-2"></i> 練習說明
+                </h3>
+                <p class="text-gray-700 mb-6 leading-relaxed">
+                    點擊上方各個工作項目即可進入對應的練習頁面。祝您順利通過考驗！
+                </p>
+                <div class="bg-blue-50 rounded-lg p-5 border-l-4 border-blue-400">
+                    <h4 class="font-bold text-blue-900 mb-2">計分說明：</h4>
+                    <ul class="text-blue-800 space-y-2">
+                        <li><i class="fas fa-check-circle mr-2"></i>每一題答對有 <span class="font-bold text-blue-600">10 分</span>。</li>
+                        <li><i class="fas fa-clock mr-2"></i>每題答題時間為 <span class="font-bold text-blue-600">30 秒</span>。</li>
+                        <li><i class="fas fa-star mr-2"></i>單題分數計算：<span class="font-bold">10 + 剩下秒數</span>。</li>
+                        <li><i class="fas fa-bullseye mr-2 text-red-500"></i>建議多次練習直到分數達到 <span class="font-bold text-red-600 text-lg">300 分以上</span>，表示已熟記該工作項目內容！</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- 頁腳 -->
+    <footer class="bg-gray-800 text-gray-400 py-6 text-center">
+        <div class="container mx-auto px-4">
+            <!-- 版權文字已刪除 -->
+        </div>
+    </footer>
+
+</body>
+</html>
